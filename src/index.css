@@ -1,0 +1,45 @@
+body
+{
+  background-color: darkgoldenrod !important;
+}
+nav{
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+.navbar-links
+{
+  margin-left: 8%;
+}
+.navbar-links li 
+{
+  display: inline-block;
+  padding: 5px 35px;
+}
+.navbar-links a 
+{
+  text-decoration: none;
+   list-style-type: none;
+   color: white;
+}
+ .Index{
+  margin-top: 10% !important;
+ }
+ .Header{
+  width: 80%;
+  margin: auto;
+ }
+ @media only screen and (max-width: 600px) {
+  .Index{
+    margin-top: 30% !important;
+   };
+   .Header{
+    padding: 0.5rem !important;
+   };
+   .Fomak{
+    width: 100% !important;
+   };
+   .navbar-links
+   {
+     margin-left: 0 !important;
+   }
+ }
